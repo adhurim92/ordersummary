@@ -1,0 +1,121 @@
+body {
+
+    background: url(/xampp/htdocs/ordersummary/images/sunset.svg)no-repeat;
+    background-size: 100%;
+    background-color: hsl(225, 100%, 94%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+.parent {}
+
+.ill {
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+}
+
+.top {}
+
+
+
+
+.botom {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: red hat display;
+
+    width: 450px;
+    background-color: white;
+}
+
+.title {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.teksti {
+    width: 70%;
+    position: relative;
+    text-align: center;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.pay {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    background-color: hsl(225, 100%, 98%);
+
+    font-weight: 700;
+    border-radius: 10px;
+
+}
+
+.iconn {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    float: left;
+}
+
+.posi {
+
+    width: 50%;
+    height: 100%;
+
+}
+
+.anualplan {}
+
+.eu {
+    color: hsl(224, 23%, 55%);
+}
+
+
+
+
+
+.butons {
+
+    width: 100%;
+    text-align: center;
+    
+}
+
+.buton1 {
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    height: 30px;
+    width: 200px;
+    font-family: red hat display;
+    font-weight: 700;
+}
+
+.buton2 {
+
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+    height: 30px;
+    width: 200px;
+    font-weight: 700;
+    
+    font-family: red hat display;
+}
